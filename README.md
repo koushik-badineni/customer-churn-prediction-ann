@@ -1,12 +1,18 @@
-# Telecom Customer Churn Prediction Using ANN
+# 📊 Telecom Customer Churn Prediction Using ANN
 
-## Project Overview
+## 🚀 Live Demo
+
+**Try the application here:**
+
+[Telecom Customer Churn Prediction – Streamlit App](https://customer-churn-prediction-ann-eauqp8s57dkkbziqkl4lhn.streamlit.app/)
+
+## 📌 Project Overview
 
 An end-to-end Machine Learning and Deep Learning project that predicts whether a telecom customer is likely to leave the company using an Artificial Neural Network (ANN).
 
 The application is developed using TensorFlow and Streamlit.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -17,14 +23,14 @@ The application is developed using TensorFlow and Streamlit.
 - Streamlit
 - Matplotlib
 
-## Dataset
+## 📂 Dataset
 
 IBM Telco Customer Churn Dataset.
 
-Dataset source:  
+**Dataset source:**  
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-## Project Workflow
+## 🔄 Project Workflow
 
 1. Data collection
 2. Data cleaning
@@ -35,8 +41,9 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 7. ANN model development
 8. Model evaluation
 9. Streamlit application development
+10. Cloud deployment
 
-## Model Performance
+## 📈 Model Performance
 
 | Metric | Result |
 |---|---:|
@@ -46,7 +53,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 | Churn F1-score | 62.54% |
 | ROC-AUC | 84.12% |
 
-## Streamlit Application Features
+## 🌐 Streamlit Application Features
 
 - Customer information input form
 - Churn probability prediction
@@ -56,20 +63,34 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - Analytics dashboard
 - CSV export
 
-## Run Locally
+## 💻 Run Locally
 
-Install dependencies:
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/koushik-badineni/customer-churn-prediction-ann.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd customer-churn-prediction-ann
+```
+
+**3. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+**4. Run the application**
 
 ```bash
 streamlit run app.py
 ```
 
-## Author
+## 👨‍💻 Author
 
-Manikanta Koushik
+**Manikanta Koushik**
+
+GitHub: https://github.com/koushik-badineni
